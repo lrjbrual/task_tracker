@@ -4758,3 +4758,109 @@ Processing by TasksController#create as HTML
   Rendered tasks/new.erb within layouts/application (2.0ms)
   Rendered layouts/_navigation.erb (0.6ms)
 Completed 200 OK in 78ms (Views: 75.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tasks" for ::1 at 2016-03-15 00:02:59 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+  Rendered tasks/index.erb within layouts/application (11.3ms)
+  Rendered layouts/_navigation.erb (2.6ms)
+Completed 200 OK in 672ms (Views: 653.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/tasks/new" for ::1 at 2016-03-15 00:03:04 -0300
+Processing by TasksController#new as HTML
+  Rendered tasks/new.erb within layouts/application (36.2ms)
+  Rendered layouts/_navigation.erb (1.4ms)
+Completed 200 OK in 139ms (Views: 138.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tasks" for ::1 at 2016-03-15 00:03:07 -0300
+Processing by TasksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QlR51Zxb/htPG/M4PWpaXKVIH/eoa76UyYjFJRMfm6h3co+zYV1Ctb/FGBEeXxRh1d0dWFee+v4ASw/aEUAt5Q==", "task"=>{"title"=>"dsadasd", "detail"=>"dasdasdas"}, "commit"=>"Save Task"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "tasks" ("title", "detail", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["title", "dsadasd"], ["detail", "dasdasdas"], ["created_at", "2016-03-15 03:03:07.768762"], ["updated_at", "2016-03-15 03:03:07.768762"]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/tasks/9
+Completed 302 Found in 17ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/tasks/9" for ::1 at 2016-03-15 00:03:07 -0300
+Processing by TasksController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[35mTask Load (0.3ms)[0m  SELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1  [["id", 9]]
+  Rendered tasks/show.erb within layouts/application (5.9ms)
+Completed 500 Internal Server Error in 23ms (ActiveRecord: 0.3ms)
+
+ActionView::Template::Error (undefined method `title' for nil:NilClass):
+    1: <p>
+    2:   <strong>Title: </strong>
+    3:   <%= @task.title %>
+    4: </p>
+    5: 
+    6: <p>
+  app/views/tasks/show.erb:3:in `_app_views_tasks_show_erb___4107342675287467417_70094505555660'
+
+
+  Rendered /Users/raphaelonofre/.rvm/rubies/ruby-2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.3ms)
+  Rendered /Users/raphaelonofre/.rvm/rubies/ruby-2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /Users/raphaelonofre/.rvm/rubies/ruby-2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/raphaelonofre/.rvm/rubies/ruby-2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (92.9ms)
+  Rendered /Users/raphaelonofre/.rvm/rubies/ruby-2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/raphaelonofre/.rvm/rubies/ruby-2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/raphaelonofre/.rvm/rubies/ruby-2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/raphaelonofre/.rvm/rubies/ruby-2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/raphaelonofre/.rvm/rubies/ruby-2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (79.3ms)
+  Rendered /Users/raphaelonofre/.rvm/rubies/ruby-2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/raphaelonofre/.rvm/rubies/ruby-2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/raphaelonofre/.rvm/rubies/ruby-2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (187.6ms)
+
+
+Started GET "/" for ::1 at 2016-03-15 00:04:23 -0300
+Processing by PagesController#home as HTML
+  Rendered pages/home.erb within layouts/application (0.9ms)
+  Rendered layouts/_navigation.erb (0.4ms)
+Completed 200 OK in 100ms (Views: 98.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks" for ::1 at 2016-03-15 00:04:25 -0300
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.5ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.erb within layouts/application (10.9ms)
+  Rendered layouts/_navigation.erb (0.7ms)
+Completed 200 OK in 104ms (Views: 97.5ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/tasks/new" for ::1 at 2016-03-15 00:04:28 -0300
+Processing by TasksController#new as HTML
+  Rendered tasks/new.erb within layouts/application (2.5ms)
+  Rendered layouts/_navigation.erb (0.6ms)
+Completed 200 OK in 91ms (Views: 89.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tasks" for ::1 at 2016-03-15 00:04:40 -0300
+Processing by TasksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DxuO2h0qgqms6po82dcjIJ8uygrLPxs2Lewr+AWih606PXi84Cw+B1w0cRX64m0d77vIpTTKX1zkL+EHB/0x4A==", "task"=>{"title"=>"Task test", "detail"=>"test task tracker"}, "commit"=>"Save Task"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "tasks" ("title", "detail", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Task test"], ["detail", "test task tracker"], ["created_at", "2016-03-15 03:04:40.341690"], ["updated_at", "2016-03-15 03:04:40.341690"]]
+  [1m[35m (1.2ms)[0m  commit transaction
+Redirected to http://localhost:3000/tasks/10
+Completed 302 Found in 8ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/tasks/10" for ::1 at 2016-03-15 00:04:40 -0300
+Processing by TasksController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mTask Load (0.2ms)[0m  [1mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1[0m  [["id", 10]]
+  Rendered tasks/show.erb within layouts/application (0.1ms)
+  Rendered layouts/_navigation.erb (0.3ms)
+Completed 200 OK in 81ms (Views: 79.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tasks" for ::1 at 2016-03-15 00:04:42 -0300
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (0.2ms)[0m  SELECT "tasks".* FROM "tasks"
+  Rendered tasks/index.erb within layouts/application (1.1ms)
+  Rendered layouts/_navigation.erb (0.4ms)
+Completed 200 OK in 78ms (Views: 77.8ms | ActiveRecord: 0.2ms)

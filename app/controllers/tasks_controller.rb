@@ -1,15 +1,15 @@
 class TasksController < ApplicationController
 
   def index
-    @tasks = Task.all
+    @task = Task.all
   end
 
   def show
-    @tasks = Task.find(params[:id])
+    @task = Task.find(params[:id])
   end
 
   def new
-    @tasks = Task.new
+    @task = Task.new
   end
 
   def edit
@@ -17,10 +17,10 @@ class TasksController < ApplicationController
   end
 
   def create
-    @tasks = Task.new(task_params)
+    @task = Task.new(task_params)
 
-    if @tasks.save
-      redirect_to @tasks
+    if @task.save
+      redirect_to @task
     else
       render 'new'
     end
