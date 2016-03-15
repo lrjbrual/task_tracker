@@ -1,0 +1,17 @@
+<h1>Listing Tasks</h1>
+
+<table>
+  <tr>
+    <th>Task</th>
+    <th>Description</th>
+  </tr>
+
+  <% @tasks.each do |task| %>
+    <tr>
+      <td><%= task.title %></td>
+      <td><%= task.detail %></td>
+    </tr>
+  <% end %>
+
+
+</table>
