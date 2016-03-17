@@ -8541,3 +8541,189 @@ Cannot render console from 184.91.82.22! Allowed networks: 127.0.0.1, ::1, 127.0
 
 Started GET "/assets/application.self-4d905ca01a79ba077f57f8c565fea41b539faf221b5e2d4912d0fe4686b5ecb7.js?body=1" for 184.91.82.22 at 2016-03-17 20:07:09 +0000
 Cannot render console from 184.91.82.22! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36m (1.1ms)[0m  [1mSELECT COUNT(*) FROM "users"[0m
+
+
+Started GET "/users/sign_up" for 184.91.82.22 at 2016-03-17 20:27:55 +0000
+Cannot render console from 184.91.82.22! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.0ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (10.0ms)
+  Rendered layouts/_navigation.erb (0.4ms)
+Completed 200 OK in 177ms (Views: 175.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 184.91.82.22 at 2016-03-17 20:27:59 +0000
+Cannot render console from 184.91.82.22! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (11.3ms)
+  Rendered layouts/_navigation.erb (0.3ms)
+Completed 200 OK in 140ms (Views: 137.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 184.91.82.22 at 2016-03-17 20:31:02 +0000
+Cannot render console from 184.91.82.22! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.4ms)
+  Rendered layouts/_navigation.erb (0.3ms)
+Completed 200 OK in 150ms (Views: 135.0ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/devise_bootstrap_views.self-397f5c503b7e0ad315dc70cedb38eb4e8a3af625a80fdfdeeba7f656bce8365b.css?body=1" for 184.91.82.22 at 2016-03-17 20:31:04 +0000
+Cannot render console from 184.91.82.22! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/custom.self-8ecccc775b7f6175c65b097c2084c843ec7ddfea588de414959ac3920de3ff2e.css?body=1" for 184.91.82.22 at 2016-03-17 20:31:04 +0000
+Cannot render console from 184.91.82.22! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 184.91.82.22 at 2016-03-17 20:31:05 +0000
+Cannot render console from 184.91.82.22! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for 184.91.82.22 at 2016-03-17 20:31:05 +0000
+Cannot render console from 184.91.82.22! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/tasks.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 184.91.82.22 at 2016-03-17 20:31:05 +0000
+Cannot render console from 184.91.82.22! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 184.91.82.22 at 2016-03-17 20:31:05 +0000
+Cannot render console from 184.91.82.22! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 184.91.82.22 at 2016-03-17 20:31:05 +0000
+Cannot render console from 184.91.82.22! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for 184.91.82.22 at 2016-03-17 20:31:05 +0000
+Cannot render console from 184.91.82.22! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for 184.91.82.22 at 2016-03-17 20:31:05 +0000
+Cannot render console from 184.91.82.22! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for 184.91.82.22 at 2016-03-17 20:31:05 +0000
+Cannot render console from 184.91.82.22! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for 184.91.82.22 at 2016-03-17 20:31:05 +0000
+Cannot render console from 184.91.82.22! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for 184.91.82.22 at 2016-03-17 20:31:05 +0000
+Cannot render console from 184.91.82.22! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for 184.91.82.22 at 2016-03-17 20:31:05 +0000
+Cannot render console from 184.91.82.22! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for 184.91.82.22 at 2016-03-17 20:31:05 +0000
+Cannot render console from 184.91.82.22! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for 184.91.82.22 at 2016-03-17 20:31:05 +0000
+Cannot render console from 184.91.82.22! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for 184.91.82.22 at 2016-03-17 20:31:05 +0000
+Cannot render console from 184.91.82.22! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for 184.91.82.22 at 2016-03-17 20:31:05 +0000
+Cannot render console from 184.91.82.22! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for 184.91.82.22 at 2016-03-17 20:31:05 +0000
+Cannot render console from 184.91.82.22! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for 184.91.82.22 at 2016-03-17 20:31:05 +0000
+Cannot render console from 184.91.82.22! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 184.91.82.22 at 2016-03-17 20:31:05 +0000
+Cannot render console from 184.91.82.22! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 184.91.82.22 at 2016-03-17 20:31:05 +0000
+Cannot render console from 184.91.82.22! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.self-fdc98dee79ee88255e10cac6caa91338165cb76cf0d263744d8d90011fc2ef8f.js?body=1" for 184.91.82.22 at 2016-03-17 20:31:05 +0000
+Cannot render console from 184.91.82.22! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/tasks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 184.91.82.22 at 2016-03-17 20:31:05 +0000
+Cannot render console from 184.91.82.22! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 184.91.82.22 at 2016-03-17 20:31:05 +0000
+Cannot render console from 184.91.82.22! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-4d905ca01a79ba077f57f8c565fea41b539faf221b5e2d4912d0fe4686b5ecb7.js?body=1" for 184.91.82.22 at 2016-03-17 20:31:05 +0000
+Cannot render console from 184.91.82.22! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 184.91.82.22 at 2016-03-17 20:31:07 +0000
+Cannot render console from 184.91.82.22! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_navigation.erb (0.3ms)
+Completed 200 OK in 149ms (Views: 148.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks" for 184.91.82.22 at 2016-03-17 20:31:14 +0000
+Cannot render console from 184.91.82.22! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.4ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.erb within layouts/application (8.4ms)
+  Rendered layouts/_navigation.erb (0.5ms)
+Completed 200 OK in 155ms (Views: 150.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/tasks/10/edit" for 184.91.82.22 at 2016-03-17 20:31:23 +0000
+Cannot render console from 184.91.82.22! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"10"}
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 184.91.82.22 at 2016-03-17 20:31:23 +0000
+Cannot render console from 184.91.82.22! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.9ms)
+  Rendered layouts/_navigation.erb (0.5ms)
+Completed 200 OK in 151ms (Views: 149.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks" for 184.91.82.22 at 2016-03-17 20:31:31 +0000
+Cannot render console from 184.91.82.22! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+  Rendered tasks/index.erb within layouts/application (2.0ms)
+  Rendered layouts/_navigation.erb (0.6ms)
+Completed 200 OK in 122ms (Views: 121.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks/10/edit" for 184.91.82.22 at 2016-03-17 20:31:35 +0000
+Cannot render console from 184.91.82.22! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"10"}
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 184.91.82.22 at 2016-03-17 20:31:35 +0000
+Cannot render console from 184.91.82.22! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (10.6ms)
+  Rendered layouts/_navigation.erb (0.4ms)
+Completed 200 OK in 175ms (Views: 173.3ms | ActiveRecord: 0.0ms)
