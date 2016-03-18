@@ -9299,3 +9299,109 @@ Processing by TasksController#index as HTML
   Rendered tasks/index.erb within layouts/application (7.8ms)
   Rendered layouts/_navigation.erb (0.5ms)
 Completed 200 OK in 146ms (Views: 144.0ms | ActiveRecord: 0.4ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.2ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddDefaultDoneToTask (20160318)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (1.7ms)[0m  [1mCREATE TEMPORARY TABLE "atasks" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "detail" text, "task_date" datetime, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "done" boolean) [0m
+  [1m[35m (0.3ms)[0m  SELECT * FROM "tasks"
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "atasks" ("id","title","detail","task_date","created_at","updated_at","done") VALUES (10, 'Task test**', 'test task tracker', NULL, '2016-03-15 03:04:40.341690', '2016-03-17 16:09:24.921004', NULL)[0m
+  [1m[35m (0.2ms)[0m  INSERT INTO "atasks" ("id","title","detail","task_date","created_at","updated_at","done") VALUES (11, 'Task Ok', 'Detailing some task here', NULL, '2016-03-15 23:09:32.660030', '2016-03-15 23:09:32.660030', NULL)
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "atasks" ("id","title","detail","task_date","created_at","updated_at","done") VALUES (12, 'teste 123', '', NULL, '2016-03-17 20:49:58.797288', '2016-03-17 20:49:58.797288', NULL)[0m
+  [1m[35m (0.8ms)[0m  DROP TABLE "tasks"
+  [1m[36m (0.1ms)[0m  [1mCREATE TABLE "tasks" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "detail" text, "task_date" datetime, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "done" boolean DEFAULT 'f') [0m
+  [1m[35m (0.1ms)[0m  SELECT * FROM "atasks"
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "tasks" ("id","title","detail","task_date","created_at","updated_at","done") VALUES (10, 'Task test**', 'test task tracker', NULL, '2016-03-15 03:04:40.341690', '2016-03-17 16:09:24.921004', NULL)[0m
+  [1m[35m (0.0ms)[0m  INSERT INTO "tasks" ("id","title","detail","task_date","created_at","updated_at","done") VALUES (11, 'Task Ok', 'Detailing some task here', NULL, '2016-03-15 23:09:32.660030', '2016-03-15 23:09:32.660030', NULL)
+  [1m[36m (0.0ms)[0m  [1mINSERT INTO "tasks" ("id","title","detail","task_date","created_at","updated_at","done") VALUES (12, 'teste 123', '', NULL, '2016-03-17 20:49:58.797288', '2016-03-17 20:49:58.797288', NULL)[0m
+  [1m[35m (0.3ms)[0m  DROP TABLE "atasks"
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20160318"]]
+  [1m[35m (1.2ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
