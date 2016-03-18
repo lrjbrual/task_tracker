@@ -8727,3 +8727,575 @@ Processing by Devise::SessionsController#new as HTML
   Rendered devise/sessions/new.html.erb within layouts/application (10.6ms)
   Rendered layouts/_navigation.erb (0.4ms)
 Completed 200 OK in 175ms (Views: 173.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-03-17 17:45:07 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_navigation.erb (0.9ms)
+Completed 200 OK in 3799ms (Views: 3789.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/devise_bootstrap_views.self-cc0f4505f30d4a49b2a297cf79b64731781ed55926c790d17291ce042bfa8263.css?body=1" for ::1 at 2016-03-17 17:45:12 -0300
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-17 17:45:12 -0300
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for ::1 at 2016-03-17 17:45:12 -0300
+
+
+Started GET "/assets/custom.self-30180d4795204a4c331cadf85a66aa05890b42fa19b502679fb1287ec0344e43.css?body=1" for ::1 at 2016-03-17 17:45:12 -0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-03-17 17:45:12 -0300
+
+
+Started GET "/assets/tasks.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-03-17 17:45:12 -0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-03-17 17:45:12 -0300
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for ::1 at 2016-03-17 17:45:12 -0300
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for ::1 at 2016-03-17 17:45:12 -0300
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for ::1 at 2016-03-17 17:45:12 -0300
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for ::1 at 2016-03-17 17:45:12 -0300
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for ::1 at 2016-03-17 17:45:12 -0300
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for ::1 at 2016-03-17 17:45:12 -0300
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for ::1 at 2016-03-17 17:45:12 -0300
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for ::1 at 2016-03-17 17:45:12 -0300
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for ::1 at 2016-03-17 17:45:12 -0300
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for ::1 at 2016-03-17 17:45:12 -0300
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for ::1 at 2016-03-17 17:45:12 -0300
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for ::1 at 2016-03-17 17:45:12 -0300
+
+
+Started GET "/assets/bootstrap.self-fdc98dee79ee88255e10cac6caa91338165cb76cf0d263744d8d90011fc2ef8f.js?body=1" for ::1 at 2016-03-17 17:45:12 -0300
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-17 17:45:12 -0300
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-03-17 17:45:12 -0300
+
+
+Started GET "/assets/tasks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-17 17:45:12 -0300
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-17 17:45:12 -0300
+
+
+Started GET "/assets/application.self-4d905ca01a79ba077f57f8c565fea41b539faf221b5e2d4912d0fe4686b5ecb7.js?body=1" for ::1 at 2016-03-17 17:45:12 -0300
+
+
+Started GET "/tasks" for ::1 at 2016-03-17 17:45:23 -0300
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (0.6ms)[0m  SELECT "tasks".* FROM "tasks"
+  Rendered tasks/index.erb within layouts/application (9.9ms)
+  Rendered layouts/_navigation.erb (1.0ms)
+Completed 200 OK in 115ms (Views: 111.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/tasks/new" for ::1 at 2016-03-17 17:45:31 -0300
+Processing by TasksController#new as HTML
+Completed 401 Unauthorized in 12ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2016-03-17 17:45:32 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (25.1ms)
+  Rendered layouts/_navigation.erb (0.4ms)
+Completed 200 OK in 184ms (Views: 107.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users/sign_up" for ::1 at 2016-03-17 17:45:36 -0300
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.8ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (7.0ms)
+  Rendered layouts/_navigation.erb (0.5ms)
+Completed 200 OK in 106ms (Views: 104.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for ::1 at 2016-03-17 17:46:40 -0300
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"KVWRoEtI3a0OrmyTecmApfBZHMh9Pi4jirCAKeohQOccc2fGtk5hA/5wh7pa/M6YgMweZ4LLaklDc0rW6H72qg==", "user"=>{"email"=>"raphael.onofre@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.7ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'raphael.onofre@gmail.com' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  Rendered devise/shared/_links.html.erb (0.4ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (6.2ms)
+  Rendered layouts/_navigation.erb (0.3ms)
+Completed 200 OK in 284ms (Views: 107.4ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/users" for ::1 at 2016-03-17 17:47:08 -0300
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7Nx4tTJ9PCcXV98DRh4QAVn6l+sUEnfFKL6i7VXYGNTZ+o7Tz3uAieeJNCplK148KW+VROvnM6/hfWgSV4eumQ==", "user"=>{"email"=>"raphael.onofre@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'raphael.onofre@gmail.com' LIMIT 1[0m
+  [1m[35mSQL (4.1ms)[0m  INSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["email", "raphael.onofre@gmail.com"], ["encrypted_password", "$2a$10$juikU2.t0Zh163cMYGarGuC8o1EL8j9yOxPAUvcEBP4zWxt5VLk4y"], ["created_at", "2016-03-17 20:47:08.453280"], ["updated_at", "2016-03-17 20:47:08.453280"]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "last_sign_in_ip" = ?, "current_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["last_sign_in_at", "2016-03-17 20:47:08.460762"], ["current_sign_in_at", "2016-03-17 20:47:08.460762"], ["last_sign_in_ip", "::1"], ["current_sign_in_ip", "::1"], ["sign_in_count", 1], ["updated_at", "2016-03-17 20:47:08.461803"], ["id", 2]]
+  [1m[35m (0.7ms)[0m  commit transaction
+Redirected to http://localhost:3000/tasks/new
+Completed 302 Found in 150ms (ActiveRecord: 6.7ms)
+
+
+Started GET "/tasks/new" for ::1 at 2016-03-17 17:47:08 -0300
+Processing by TasksController#new as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  Rendered tasks/_form.erb (6.8ms)
+  Rendered tasks/new.erb within layouts/application (10.1ms)
+  Rendered layouts/_navigation.erb (0.4ms)
+Completed 200 OK in 122ms (Views: 116.1ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/tasks" for ::1 at 2016-03-17 17:49:58 -0300
+Processing by TasksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"TBxZWEjMm8GjO0N+zYwN4M+vDvQ7t278iduX8xzHF7t5Oq8+tconb1PlqFfuuUPdvzoMW8RCKpZAGF0MHpih9g==", "task"=>{"title"=>"teste 123", "detail"=>""}, "commit"=>"Create Task"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "tasks" ("title", "detail", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["title", "teste 123"], ["detail", ""], ["created_at", "2016-03-17 20:49:58.797288"], ["updated_at", "2016-03-17 20:49:58.797288"]]
+  [1m[36m (1.2ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/tasks/12
+Completed 302 Found in 8ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/tasks/12" for ::1 at 2016-03-17 17:49:58 -0300
+Processing by TasksController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[35mTask Load (0.4ms)[0m  SELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1  [["id", 12]]
+  Rendered tasks/show.erb within layouts/application (0.8ms)
+  Rendered layouts/_navigation.erb (0.5ms)
+Completed 200 OK in 91ms (Views: 87.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/tasks" for ::1 at 2016-03-17 17:50:00 -0300
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.2ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.erb within layouts/application (1.8ms)
+  Rendered layouts/_navigation.erb (0.3ms)
+Completed 200 OK in 88ms (Views: 87.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-03-17 17:50:03 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_navigation.erb (0.3ms)
+Completed 200 OK in 93ms (Views: 92.8ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/users/sign_out" for ::1 at 2016-03-17 17:50:05 -0300
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"MhAdh3ApkIRG22l3AWAo9flHnbfz97fBEZd5WJrzLVkHNuvhjS8sKrYFgl4iVWbIidKfGAwC86vYVLOnmKybFA=="}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 9ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2016-03-17 17:50:05 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_navigation.erb (0.5ms)
+Completed 200 OK in 84ms (Views: 83.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-03-17 17:50:14 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_navigation.erb (0.2ms)
+Completed 200 OK in 80ms (Views: 79.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks" for ::1 at 2016-03-17 17:50:15 -0300
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.2ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.erb within layouts/application (2.3ms)
+  Rendered layouts/_navigation.erb (0.6ms)
+Completed 200 OK in 118ms (Views: 117.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tasks" for ::1 at 2016-03-17 17:50:18 -0300
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (0.6ms)[0m  SELECT "tasks".* FROM "tasks"
+  Rendered tasks/index.erb within layouts/application (5.1ms)
+  Rendered layouts/_navigation.erb (0.4ms)
+Completed 200 OK in 137ms (Views: 135.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/tasks" for ::1 at 2016-03-17 17:50:19 -0300
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.2ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.erb within layouts/application (1.8ms)
+  Rendered layouts/_navigation.erb (0.4ms)
+Completed 200 OK in 100ms (Views: 99.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-03-17 19:10:34 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_navigation.erb (0.6ms)
+Completed 200 OK in 305ms (Views: 297.6ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/users/sign_out" for ::1 at 2016-03-17 19:10:37 -0300
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"3+zQhOqhFrt66f6WgJZbqTXn/1vq+hxZpdhYkYDG/pNImJJNfIxPMI+DTrlhLDBCa3CiP2J31zTf1NW4cf09rA=="}
+Redirected to http://localhost:3000/
+Filter chain halted as :verify_signed_out_user rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-03-17 19:10:37 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_navigation.erb (0.8ms)
+Completed 200 OK in 116ms (Views: 115.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-03-17 19:10:43 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_navigation.erb (0.3ms)
+Completed 200 OK in 113ms (Views: 111.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-03-17 19:10:45 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_navigation.erb (0.5ms)
+Completed 200 OK in 130ms (Views: 129.0ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/users/sign_out" for ::1 at 2016-03-17 19:10:53 -0300
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"8FaC/22BcOr5gHaRCfEMYzGDvWkjd7GaJeystJJ+YEtnIsA2+6wpYQzqxr7oS2eIbxTgDav6evdf4CGdY0WjdA=="}
+Redirected to http://localhost:3000/
+Filter chain halted as :verify_signed_out_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started DELETE "/users/sign_out" for ::1 at 2016-03-17 19:10:53 -0300
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"8FaC/22BcOr5gHaRCfEMYzGDvWkjd7GaJeystJJ+YEtnIsA2+6wpYQzqxr7oS2eIbxTgDav6evdf4CGdY0WjdA=="}
+Redirected to http://localhost:3000/
+Filter chain halted as :verify_signed_out_user rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-03-17 19:10:53 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_navigation.erb (0.4ms)
+Completed 200 OK in 110ms (Views: 108.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-03-17 19:10:54 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_navigation.erb (0.2ms)
+Completed 200 OK in 94ms (Views: 93.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks" for ::1 at 2016-03-17 19:10:56 -0300
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (0.3ms)[0m  SELECT "tasks".* FROM "tasks"
+  Rendered tasks/index.erb within layouts/application (2.4ms)
+  Rendered layouts/_navigation.erb (0.2ms)
+Completed 200 OK in 80ms (Views: 79.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tasks.10" for ::1 at 2016-03-17 19:10:58 -0300
+Processing by TasksController#index as 
+  [1m[36mTask Load (0.2ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.erb within layouts/application (3.3ms)
+  Rendered layouts/_navigation.erb (1.0ms)
+Completed 200 OK in 110ms (Views: 109.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tasks/10/edit" for ::1 at 2016-03-17 19:11:00 -0300
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"10"}
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2016-03-17 19:11:00 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_navigation.erb (0.5ms)
+Completed 200 OK in 116ms (Views: 114.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for ::1 at 2016-03-17 19:11:06 -0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pcJNUz6Ys/p4Ux4NhLzNQBEwkRiKmAVcYaMOcqhW6/Yytg+aqLXqcY05riJlBqarT6fMfAIVzjEbr4NbWW0oyQ==", "user"=>{"email"=>"raphael.onofre@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["email", "raphael.onofre@gmail.com"]]
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  UPDATE "users" SET "current_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["current_sign_in_at", "2016-03-17 22:11:06.934054"], ["sign_in_count", 2], ["updated_at", "2016-03-17 22:11:06.935353"], ["id", 2]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/tasks/10/edit
+Completed 302 Found in 109ms (ActiveRecord: 2.2ms)
+
+
+Started GET "/tasks/10/edit" for ::1 at 2016-03-17 19:11:06 -0300
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"10"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mTask Load (0.1ms)[0m  [1mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1[0m  [["id", 10]]
+  Rendered tasks/_form.erb (2.5ms)
+  Rendered tasks/edit.erb within layouts/application (4.8ms)
+  Rendered layouts/_navigation.erb (0.6ms)
+Completed 200 OK in 118ms (Views: 115.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tasks" for ::1 at 2016-03-17 19:11:13 -0300
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (0.4ms)[0m  SELECT "tasks".* FROM "tasks"
+  Rendered tasks/index.erb within layouts/application (2.7ms)
+  Rendered layouts/_navigation.erb (0.3ms)
+Completed 200 OK in 100ms (Views: 99.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2016-03-17 22:47:37 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_navigation.erb (0.8ms)
+Completed 200 OK in 198ms (Views: 192.5ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/users/sign_out" for ::1 at 2016-03-17 22:47:40 -0300
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"DjqLiYtDuQ1Jvy3jKKEdKew9APL7sjlXspi+DTgmoMv/RiesQXl5LXistotMfhS1EIiblLCt+19ui7+MbT5tPQ=="}
+  [1m[36mUser Load (1.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.4ms)[0m  begin transaction
+  [1m[36m (0.2ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 28ms (ActiveRecord: 2.1ms)
+
+
+Started GET "/" for ::1 at 2016-03-17 22:47:40 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_navigation.erb (0.6ms)
+Completed 200 OK in 97ms (Views: 96.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-03-17 22:50:18 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_navigation.erb (1.5ms)
+Completed 200 OK in 675ms (Views: 663.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks" for ::1 at 2016-03-17 22:50:26 -0300
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (0.2ms)[0m  SELECT "tasks".* FROM "tasks"
+  Rendered tasks/index.erb within layouts/application (15.5ms)
+  Rendered layouts/_navigation.erb (1.3ms)
+Completed 200 OK in 130ms (Views: 124.1ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/tasks/10/edit" for ::1 at 2016-03-17 22:50:31 -0300
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"10"}
+Completed 401 Unauthorized in 23ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2016-03-17 22:50:31 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (24.3ms)
+  Rendered layouts/_navigation.erb (0.3ms)
+Completed 200 OK in 122ms (Views: 109.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/sign_up" for ::1 at 2016-03-17 22:50:37 -0300
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.9ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (7.7ms)
+  Rendered layouts/_navigation.erb (0.6ms)
+Completed 200 OK in 131ms (Views: 129.3ms | ActiveRecord: 0.0ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddDoneToTask (20160318030837)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mALTER TABLE "tasks" ADD "done" boolean[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20160318030837"]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+
+
+Started GET "/" for ::1 at 2016-03-18 00:14:08 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (4.2ms)
+  Rendered layouts/_navigation.erb (1.7ms)
+Completed 200 OK in 709ms (Views: 694.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks" for ::1 at 2016-03-18 00:14:11 -0300
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (0.7ms)[0m  SELECT "tasks".* FROM "tasks"
+  Rendered tasks/index.erb within layouts/application (11.6ms)
+  Rendered layouts/_navigation.erb (1.6ms)
+Completed 200 OK in 139ms (Views: 131.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/tasks" for ::1 at 2016-03-18 00:14:12 -0300
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.5ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.erb within layouts/application (3.3ms)
+  Rendered layouts/_navigation.erb (0.3ms)
+Completed 200 OK in 107ms (Views: 106.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/tasks" for ::1 at 2016-03-18 00:14:15 -0300
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (0.2ms)[0m  SELECT "tasks".* FROM "tasks"
+  Rendered tasks/index.erb within layouts/application (1.7ms)
+  Rendered layouts/_navigation.erb (0.5ms)
+Completed 200 OK in 99ms (Views: 98.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tasks" for ::1 at 2016-03-18 00:15:51 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (0.2ms)[0m  SELECT "tasks".* FROM "tasks"
+  Rendered tasks/index.erb within layouts/application (13.9ms)
+Completed 500 Internal Server Error in 47ms (ActiveRecord: 0.5ms)
+
+ActionView::Template::Error (undefined method `check_box' for #<Task:0x007f9909b00708>):
+    10: 
+    11:   <% @task.each do |task| %>
+    12:     <tr>
+    13:       <td><%= task.check_box :done %></td>
+    14:       <td><%= task.title %></td>
+    15:       <td><%= task.detail %></td>
+    16:       <td><%= link_to 'Show', tasks_path(task) %></td>
+  app/views/tasks/index.erb:13:in `block in _app_views_tasks_index_erb__1499578310364615373_70147635299560'
+  app/views/tasks/index.erb:11:in `_app_views_tasks_index_erb__1499578310364615373_70147635299560'
+
+
+  Rendered /Users/raphaelonofre/.rvm/rubies/ruby-2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (18.2ms)
+  Rendered /Users/raphaelonofre/.rvm/rubies/ruby-2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.8ms)
+  Rendered /Users/raphaelonofre/.rvm/rubies/ruby-2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/raphaelonofre/.rvm/rubies/ruby-2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (106.7ms)
+  Rendered /Users/raphaelonofre/.rvm/rubies/ruby-2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/raphaelonofre/.rvm/rubies/ruby-2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/raphaelonofre/.rvm/rubies/ruby-2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/raphaelonofre/.rvm/rubies/ruby-2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/raphaelonofre/.rvm/rubies/ruby-2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (154.7ms)
+  Rendered /Users/raphaelonofre/.rvm/rubies/ruby-2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/raphaelonofre/.rvm/rubies/ruby-2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/raphaelonofre/.rvm/rubies/ruby-2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (266.0ms)
+
+
+Started GET "/tasks" for ::1 at 2016-03-18 00:16:44 -0300
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.2ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.erb within layouts/application (5.0ms)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.2ms)
+
+ActionView::Template::Error (undefined method `check_box' for #<Task:0x007f990e061ea0>):
+    10: 
+    11:   <% @task.each do |task| %>
+    12:     <tr>
+    13:       <td><%= task.check_box%></td>
+    14:       <td><%= task.title %></td>
+    15:       <td><%= task.detail %></td>
+    16:       <td><%= link_to 'Show', tasks_path(task) %></td>
+  app/views/tasks/index.erb:13:in `block in _app_views_tasks_index_erb__1499578310364615373_70147671070400'
+  app/views/tasks/index.erb:11:in `_app_views_tasks_index_erb__1499578310364615373_70147671070400'
+
+
+  Rendered /Users/raphaelonofre/.rvm/rubies/ruby-2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.2ms)
+  Rendered /Users/raphaelonofre/.rvm/rubies/ruby-2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /Users/raphaelonofre/.rvm/rubies/ruby-2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/raphaelonofre/.rvm/rubies/ruby-2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (85.7ms)
+  Rendered /Users/raphaelonofre/.rvm/rubies/ruby-2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/raphaelonofre/.rvm/rubies/ruby-2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/raphaelonofre/.rvm/rubies/ruby-2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/raphaelonofre/.rvm/rubies/ruby-2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/raphaelonofre/.rvm/rubies/ruby-2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (84.2ms)
+  Rendered /Users/raphaelonofre/.rvm/rubies/ruby-2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/raphaelonofre/.rvm/rubies/ruby-2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/raphaelonofre/.rvm/rubies/ruby-2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (177.5ms)
+
+
+Started GET "/tasks" for ::1 at 2016-03-18 00:17:12 -0300
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (0.2ms)[0m  SELECT "tasks".* FROM "tasks"
+  Rendered tasks/index.erb within layouts/application (5.4ms)
+  Rendered layouts/_navigation.erb (1.2ms)
+Completed 200 OK in 569ms (Views: 568.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tasks" for ::1 at 2016-03-18 00:18:43 -0300
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (0.4ms)[0m  [1mSELECT "tasks".* FROM "tasks"[0m
+  Rendered tasks/index.erb within layouts/application (7.8ms)
+  Rendered layouts/_navigation.erb (0.5ms)
+Completed 200 OK in 146ms (Views: 144.0ms | ActiveRecord: 0.4ms)
