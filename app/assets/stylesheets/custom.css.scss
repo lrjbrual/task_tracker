@@ -20,3 +20,17 @@ $navbar-default-bg: #08088A;
 .center{
   text-align: center;
 }
+
+.jumbotron {
+  margin-top: -10px;
+  background-image: asset-url('taskTrackerHome.png');
+  background-size:cover;
+  height: 500px;
+  opacity: 0.9;
+}
+.jumbotron h2{
+  color: white;
+  margin-botton: 35px;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
